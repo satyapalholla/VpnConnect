@@ -5,7 +5,7 @@
 -- 5. Trigger script from the menu
 -- 6. Enjoy being connected
 
-set sofTokenKey to "11111111"
+set sofTokenKey to "28011985"
 on quitApp(theAppName)
 	tell application "System Events"
 		set processExists to exists process theAppName
@@ -47,7 +47,9 @@ tell application "System Events"
 		end tell
 	end tell
 end tell
+delay 1
 quit application "SofToken II"
+delay 1
 tell application "Cisco AnyConnect Secure Mobility Client"
 	activate
 end tell
